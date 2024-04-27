@@ -1,0 +1,116 @@
+h3{
+    color: black;
+    margin-left: 5px;
+    padding: 20px;
+}
+.alignBase{
+    align-items: baseline;
+}
+.sidebar{
+    height:550px;
+    width:300px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin: 0px 30px 0 15px;
+    box-shadow: 0px 3px 15px 2px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+.search{
+    background-color: white;
+    height:40px;
+    width:90%;
+    border-radius:15px;
+    border-color:gainsboro;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    border-style:solid;
+    border-width: 1px;
+    margin-left:5%;
+}
+.search input{
+    border-style:none;
+    width:80%;
+    height:100%; 
+    font-size: medium; 
+    outline: none;
+    margin-left: 5px;
+}
+.search span{
+    color: gainsboro;
+    margin-left: 10px;
+}
+hr{
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+.flexCol{
+    display: flex;
+    flex-direction: column;
+
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    margin: 10px 20px 10px 20px;
+    align-items: center;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style:solid;
+    background-color: transparent;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn span,.btn p{
+    color: grey;
+    margin-left:10px;
+}
+.btn1{
+    height: 60px;
+    width: 100px;
+    margin: 10px 20px 10px 20px;
+    align-items: center;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style:solid;
+    background-color: transparent;
+}
+.icon{
+    height: 15px;
+    width: 15px;
+    margin-top: 5px;
+}
+.btn1:active{
+    color: blue;
+}
+.over{
+    height: 170px;
+    width: inherit;
+    overflow-y: hidden;
+}
+.over::active{
+    overflow-y: scroll;
+}
+#aa{
+    cursor: pointer;
+    font-weight: 800;
+    color: blue;
+}
+#clear{
+    cursor:pointer;
+}
+#clear:active{
+    color: blue;
+}

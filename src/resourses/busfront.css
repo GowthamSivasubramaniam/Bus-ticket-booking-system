@@ -1,0 +1,27 @@
+.bus1{
+    background-color:rgb(41, 182, 119);
+}
+.bus1:hover
+{
+  cursor: pointer;
+  background: rgb(70, 70, 190);
+}
+.bus2{
+    background-color:rgb(212, 69, 69);
+}
+.bus2:hover
+{
+  cursor: pointer;
+  background: rgb(72, 179, 215);
+}
+.bus3{
+    background-color:rgb(212, 69, 69);
+}
+.bus3:hover
+{
+  cursor: pointer;
+  background: rgb(72, 215, 86);
+}
+.bus11{
+  background-color: grey;
+}

@@ -1,0 +1,17 @@
+:root {
+    --primary:#058359 ;
+    --secondary:#AC4425 ;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+
+* {
+  font-family: "Nunito";
+  font-size: 17px;
+}
+.m
+{
+  color: rgb(41, 182, 119);
+}
+

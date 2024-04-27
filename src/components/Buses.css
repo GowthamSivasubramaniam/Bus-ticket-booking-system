@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: lato;
+    font-weight: 400;
+    height: 100vh;
+    width:1000px;
+    color: #4a4a4a;
+    background: #fff;
+}
+
+ .busCardContainer {
+    background-color: #fff;
+    margin: 15px 0 0;
+    border-radius: 16px;
+    width: 900px;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0px 3px 15px 2px;
+}
+
+.busListingContainer .busCard {
+    -webkit-font-smoothing: antialiased;
+    width: 900px;
+    border-radius: 16px 16px 0 0;
+    padding: 16px 20px;
+}
+.busListingContainer .line-border-top {
+    width: 29px;
+    height: 1px;
+    margin: 13px 8px 10px;
+    border-top: 1.4px solid #e7e7e7;
+}
+.nowrapStyle {
+    white-space: nowrap;
+}
+.appendRight26 {
+    margin-right: 26px;
+}
+.appendRight4 {
+    margin-right: 4px;
+}
+.appendRight10 {
+    margin-right: 10px;
+}
+.appendRight16 {
+    margin-right: 16px;
+}
+.appendBottom22 {
+    margin-bottom: 22px;
+}
+.appendBottom20 {
+    margin-bottom: 20px;
+}
+.appendBottom8 {
+    margin-bottom: 8px;
+}
+.blackText {
+    color: #000000;
+}
+.latoBold {
+    font-weight: 700;
+}
+.latoBlack {
+    font-weight: 900;
+}
+.latoRegular {
+    font-weight: 400;
+}   
+.capText {
+    text-transform: uppercase;
+}
+.font18 {
+    font-size: calc(var(--font-scale, 1) * 18px);
+    line-height: 18px;
+}
+.font14 {
+    font-size: calc(var(--font-scale, 1) * 14px);
+    line-height: 14px;
+}
+.makeFlex {
+    display: flex;
+}
+.makeFlex.column {
+    flex-direction: column;
+}
+.makeFlex.row {
+    flex-direction: row;
+}
+.makeFlex.end {
+    align-items: flex-end;
+}
+.makeFlex.spaceBetween {
+    justify-content: space-between;
+}
+.makeFlex.alignSelfStart {
+    align-self: flex-start;
+}
+.makeFlex.hrtlCenter {
+    align-items: center;
+}
+.busListingContainer .busCard .busInfo {
+    width: 18vw;
+    margin-right: 50px;
+}
+
+.busListingContainer .busCard .busInfo {
+    width: 18vw;
+    margin-right: 50px;
+}
+.busListingContainer .busCard .priceSection {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+}
+.busListingContainer .oldPrice {
+    font-size: 14px;
+    line-height: 18px;
+    color: #9b9b9b;
+    margin-right: 6px;
+    position: relative;
+    -webkit-text-decoration-line: line-through;
+    text-decoration-line: line-through;
+}
+.busListingContainer .savedAmount {
+    color: #007e7d;
+    font-size: 14px;
+    line-height: 16px;
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.font12 {
+    font-size: calc(var(--font-scale, 1) * 12px);
+    line-height: 12px;
+}
+.fXgCif {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgb(0, 0, 0);
+}
+.busListingContainer .busCardFooter {
+    background-color: #fff;
+    padding: 8px 16px;
+    border-top: 1px solid #e7e7e7;
+    border-radius: 0 0 16px 16px;
+    display: flex;
+    align-items: center;
+}
+.noSelection {
+    -webkit-user-select: none;
+    /* -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none; */
+}
+.dYVKVa {
+    box-sizing: border-box;
+    width: 180px;
+    height: 36px;
+    background: linear-gradient(90deg, #39ADFF 0%, #0F7AFF 100%);
+    border: 1px solid rgb(0, 140, 255);
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    align-self: flex-end;
+    cursor: pointer;
+    user-select: none;
+}
+.dYVKVa:hover{
+    background: linear-gradient(90deg, #0F7AFF 0%, #39ADFF 100%);
+}
+
+/* #card:hover{
+    border-width: 2px;
+    box-shadow: 1px 1px 3px 3px rgb(171, 173, 214);
+} */
+
+.scroll{
+    height: 550px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}

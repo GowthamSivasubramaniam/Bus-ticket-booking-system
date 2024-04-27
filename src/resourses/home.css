@@ -1,0 +1,11 @@
+.Button2{
+    background-color:rgb(41, 182, 119);
+    border-radius: 10px;
+    width:100px;
+    height:50px;
+}
+.Button2:hover
+{
+  cursor: pointer;
+  background: rgb(36, 36, 126);
+}
